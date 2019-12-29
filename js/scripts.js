@@ -1,5 +1,4 @@
-//using jquery to pull data from randomuser API 
-
+//pull data from randomuser API 
   function getApi(url) {
             return fetch(url)
                     .then(checkResStatus)
@@ -8,7 +7,7 @@
      }
 
 
-//Declaring Variables
+//Declaring Variables with the BEST OF ALL JQUERY!
 const apiCardData = 'https://randomuser.me/api/?results=12'; 
 const $dataGallery = $('.gallery')
 const $divContainerSearch = $('.search-container');
